@@ -1,7 +1,7 @@
 # Self-Supervised-MVS
 This repository is the official PyTorch implementation of our AAAI 2021 paper:
 
-"Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation"
+"*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*"
 
 Code will be released soon!
 
