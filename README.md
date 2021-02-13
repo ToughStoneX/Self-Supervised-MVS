@@ -1,7 +1,7 @@
 # Self-Supervised-MVS
 This repository is the official PyTorch implementation of our AAAI 2021 paper:
 
-"*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*"
+"*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*" [[paper]](https://www.aaai.org/AAAI21Papers/AAAI-2549.XuH.pdf)
 
 Code will be released soon!
 
@@ -16,6 +16,12 @@ However, existing unsupervised methods rely on the assumption that the correspon
 To address the issue, we propose a novel self-supervised MVS framework integrated with more reliable supervision guided by semantic co-segmentation and data-augmentation. Specially, we excavate mutual semantic from multi-view images to guide the semantic consistency. And we devise effective data-augmentation mechanism which ensures the transformation robustness by treating the prediction of regular samples as pseudo ground truth to regularize the prediction of augmented samples. The brief illustration of our proposed framework is shown in the following figure:
 
 ![](doc/architecture.png)
+
+## Log
+
+### 2021 February 13
+
+- Our paper is recently awarded for **Distinguished Paper** in AAAI-21!!!
 
 ## Acknowledgement
 
