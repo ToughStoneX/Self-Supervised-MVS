@@ -3,7 +3,7 @@ This repository is the official PyTorch implementation of our AAAI 2021 paper:
 
 "*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*" [[paper]](https://www.aaai.org/AAAI21Papers/AAAI-2549.XuH.pdf)
 
-Code will be released soon!
+The training code is released in [jdacs/](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs).
 
 ## Introduction
 
@@ -22,6 +22,10 @@ To address the issue, we propose a novel self-supervised MVS framework integrate
 ### 2021 February 13
 
 - Our paper is recently awarded for **Distinguished Paper** in AAAI-21!!!
+
+### 2021 April 11
+
+- The training code of [JDACS](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs) is released.
 
 ## Acknowledgement
 
