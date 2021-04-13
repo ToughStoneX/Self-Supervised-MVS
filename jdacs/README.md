@@ -37,8 +37,9 @@ It is noted that [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) is utilized 
  - To build the binary executable file from [fusibile](https://github.com/kysucix/fusibile), please follow the following steps:
    - Enter the `fusion/fusibile` directory of this project.
    - Check the gpu architecture in your server and modify the corresponding settings in `CMakeList.txt`:
-     - If 1080 Ti GPU is used, please add: `set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3 --use_fast_math --ptxas-options=-v -std=c++11 --compiler-options -Wall -gencode arch=compute_60,code=sm_60 -gencode arch=compute_60,code=sm_60)`.
-     - If 2080 Ti GPU is used, please add: `set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3 --use_fast_math --ptxas-options=-v -std=c++11 --compiler-options -Wall -gencode arch=compute_75,code=sm_75 -gencode arch=compute_75,code=sm_75)`.
+     - If 1080 Ti GPU with a computation capability of 6.0 is used, please add: `set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3 --use_fast_math --ptxas-options=-v -std=c++11 --compiler-options -Wall -gencode arch=compute_60,code=sm_60 -gencode arch=compute_60,code=sm_60)`.
+     - If 2080 Ti GPU with a computation capability of 7.5 is used, please add: `set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3 --use_fast_math --ptxas-options=-v -std=c++11 --compiler-options -Wall -gencode arch=compute_75,code=sm_75 -gencode arch=compute_75,code=sm_75)`.
+     - For other GPUs, please check the computation capability of your GPU in: https://developer.nvidia.com/zh-cn/cuda-gpus.
    - Create the directory by running `mkdir build`.
    - Enter the created directory, `cd build`.
    - Configure the CMake setting, `cmake ..`.
