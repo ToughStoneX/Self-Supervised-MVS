@@ -1,9 +1,11 @@
 # Self-Supervised-MVS
 This repository is the official PyTorch implementation of our AAAI 2021 paper:
 
-"*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*" [[paper]](https://www.aaai.org/AAAI21Papers/AAAI-2549.XuH.pdf)
+"*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*" [[paper]](https://www.aaai.org/AAAI21Papers/AAAI-2549.XuH.pdf) [[Arxiv]](https://arxiv.org/abs/2104.05374)
 
 The training code is released in [jdacs/](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs).
+
+The training code of jdacs-ms will be released soon.
 
 ## Introduction
 
@@ -27,6 +29,20 @@ To address the issue, we propose a novel self-supervised MVS framework integrate
 
 - The training code of [JDACS](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs) is released.
 
+## Citation
+
+If you find this work is helpful to your work, please cite:
+
+```
+@inproceedings{xu2021self,
+  title={Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation},
+  author={Xu, Hongbin and Zhou, Zhipeng and Qiao, Yu and Kang, Wenxiong and Wu, Qiuxia},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2021}
+}
+```
+
 ## Acknowledgement
 
 We acknowledge the following repositories [MVSNet](https://github.com/YoYo000/MVSNet) and [MVSNet_pytorch](https://github.com/xy-guo/MVSNet_pytorch). Furthermore, the baseline of our self-supervised MVS method is partly based on the [Unsup_MVS](https://github.com/tejaskhot/unsup_mvs). We also thank the authors of [M3VSNet](https://github.com/whubaichuan/M3VSNet) for the constructive advices in experiments.
+
