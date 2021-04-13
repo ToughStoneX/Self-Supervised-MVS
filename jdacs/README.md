@@ -52,7 +52,7 @@ It is noted that [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) is utilized 
  - Move the fused 3D point cloud to the same folder, `python arange.py`. You can find the reconstructed 3D ply files in the directory of `outputs_dense/mvsnet_0.4_0.25`.
 
 ### Benchmark
- - To reproduce the quantitative performance of the model, we can use the official code provided by [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36). The original codes are implemented in Matlab and requires huge time for calculating the evaluation metrics. We provide a parallel version of the code in `matlab_eval/dtu` of this repo.
+ - To reproduce the quantitative performance of the model, we can use the official code provided by [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36). The original codes are implemented in Matlab and requires huge time for calculating the evaluation metrics. To accelerate this process, we also provide a parallel version of the evaluation code in `matlab_eval/dtu` of this repo.
  - Download the [Sample Set.zip](roboimagedata2.compute.dtu.dk/data/MVS/SampleSet.zip) and [Points.zip](http://roboimagedata2.compute.dtu.dk/data/MVS/Points.zip) from [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36)'s official website. Decompress the zip files and arange the ground truth point clouds following the official instructions of [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36).
  - Edit the path settings in `ComputeStat_web.m` and `BaseEvalMain_web.m`.
    - The `datapath` should be changed according to the path of your data. For example, `dataPath='/home/xhb/dtu_eval/SampleSet/MVS Data/';`
