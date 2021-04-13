@@ -61,7 +61,7 @@ It is noted that [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) is utilized 
 
 ## Note
 
-- The default hyperparameters `--prob_threshold`/`--disp_threshold`/`--num_consistent` may not be the best configuration, which requires further adjustment. It may be manually adjust these hyperparameters.
+- The default hyperparameters `--prob_threshold`/`--disp_threshold`/`--num_consistent` may not be the best configuration, which requires further adjustment. It may be better to manually adjust these hyperparameters.
 - The adopted model checkpoint with iteration of 60000 steps in `./eval_dense.sh` can also be alternated with other checkpoints, which may produce better performance.
 
 
