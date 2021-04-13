@@ -59,4 +59,9 @@ It is noted that [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) is utilized 
    - The `datapath` should be changed according to the path of your data. For example, `dataPath='/home/xhb/dtu_eval/SampleSet/MVS Data/';`
  - Enter the `matlab_eval/dtu` directory and run the matlab evaluation code, `./run.sh`. The results will be presented in a few hours. The time consumption is up to the available threads enabled in the Matlab environment. 
 
+## Note
+
+- The default hyperparameters `--prob_threshold`/`--disp_threshold`/`--num_consistent` may not be the best configuration, which requires further adjustment. It may be manually adjust these hyperparameters.
+- The adopted model checkpoint with iteration of 60000 steps in `./eval_dense.sh` can also be alternated with other checkpoints, which may produce better performance.
+
 
