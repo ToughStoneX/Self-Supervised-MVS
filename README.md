@@ -9,16 +9,6 @@ JDACS utilizes MVSNet as backbone, while JDACS-MS utilizes a multi-stage MVSNet,
 
 You can alternate the backbone network with other MVSNet series model. We will also release another implementation with [CascadeMVSNet](https://github.com/alibaba/cascade-stereo) as backbone in `jdacs-ms-v2/`  in a few days.
 
-## Example
-
-We provide several examples of the reconstructed 3D scenes with our proposed method:
-
-![scan001](./doc/dtu_scan001.gif)
-
-![scan114](./doc/dtu_scan114.gif)
-
-![scan118](./doc/dtu_scan118.gif)
-
 ## Introduction
 
 This project is inspired by many previous MVS works, such as [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) and [CVP-MVSNet](https://github.com/JiayuYANG/CVP-MVSNet). Whereas the requirement of large-scale ground truth data limits the development of these learning-based MVS works. Hence, our model focuses on an **unsupervised setting** based on self-supervised photometric consistency loss. 
@@ -44,6 +34,16 @@ To address the issue, we propose a novel self-supervised MVS framework integrate
 ### 2021 April 20
 
 - The training code of [JDACS-MS](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs-ms) is released.
+
+## Example
+
+We provide several examples of the reconstructed 3D scenes with our proposed method:
+
+![scan001](./doc/dtu_scan001.gif)
+
+![scan114](./doc/dtu_scan114.gif)
+
+![scan118](./doc/dtu_scan118.gif)
 
 ## Citation
 
