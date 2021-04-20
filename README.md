@@ -3,9 +3,11 @@ This repository is the official PyTorch implementation of our AAAI 2021 paper:
 
 "*Self-supervised Multi-view Stereo via Effective Co-Segmentation and Data-Augmentation*" [[paper]](https://www.aaai.org/AAAI21Papers/AAAI-2549.XuH.pdf) [[Arxiv]](https://arxiv.org/abs/2104.05374)
 
-The training code is released in [jdacs/](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs).
+The training code is released in [jdacs/](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs) and [jdacs-ms/](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs-ms).
 
-The training code of jdacs-ms will be released soon.
+JDACS utilizes MVSNet as backbone, while JDACS-MS utilizes a multi-stage MVSNet, such as CVP-MVSNet as backbone.
+
+You can also alternate the backbone network with other MVSNet series model, for example [CascadeMVSNet](https://github.com/alibaba/cascade-stereo).
 
 ## Introduction
 
@@ -28,6 +30,10 @@ To address the issue, we propose a novel self-supervised MVS framework integrate
 ### 2021 April 11
 
 - The training code of [JDACS](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs) is released.
+
+### 2021 April 20
+
+- The training code of [JDACS-MS](https://github.com/ToughStoneX/Self-Supervised-MVS/tree/main/jdacs-ms) is released.
 
 ## Citation
 
