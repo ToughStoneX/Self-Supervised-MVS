@@ -7,7 +7,17 @@ The training code is released in [jdacs/](https://github.com/ToughStoneX/Self-Su
 
 JDACS utilizes MVSNet as backbone, while JDACS-MS utilizes a multi-stage MVSNet, such as CVP-MVSNet as backbone.
 
-You can also alternate the backbone network with other MVSNet series model, for example [CascadeMVSNet](https://github.com/alibaba/cascade-stereo).
+You can alternate the backbone network with other MVSNet series model. We will also release another implementation with [CascadeMVSNet](https://github.com/alibaba/cascade-stereo) as backbone in `jdacs-ms-v2/`  in a few days.
+
+## Example
+
+We provide several examples of the reconstructed 3D scenes with our proposed method:
+
+![scan001](./doc/dtu_scan001.gif)
+
+![scan114](./doc/dtu_scan114.gif)
+
+![scan118](./doc/dtu_scan118.gif)
 
 ## Introduction
 
