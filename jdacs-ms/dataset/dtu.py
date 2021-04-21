@@ -281,7 +281,7 @@ class DTUDataset(Dataset):
         sample["imgs"] = np.stack(imgs).transpose([0, 3, 1, 2])
         sample["cams"] = np.stack(cams)
         sample["imgs_seg"] = np.stack(images_seg)
-        sample["coseg"] = np.load('./coseg_maps/{}.npz'.format(idx))['arr_0'][0]
+        # sample["coseg"] = np.load('./coseg_maps/{}.npz'.format(idx))['arr_0'][0]
         # sample["coseg"] = np.load('./coseg_ft/{}.npz'.format(idx))['arr_0']
 
         # print('sample["cams"]: {}'.format(sample["cams"]))
