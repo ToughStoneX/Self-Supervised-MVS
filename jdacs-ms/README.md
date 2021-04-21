@@ -11,6 +11,7 @@ JDACS-MS supports the training of multi-stage MVSNet which possesses a coarse-to
 ### Environment
  - Python 3.6 (Anaconda) 
  - Pytorch 1.1.0
+ - 4 to 8 GPUs with 11G memories, such as 1080 Ti or 2080 Ti.
 
 ### Training
  - Download the preprocessed DTU training dataset of [CVP-MVSNet](https://github.com/JiayuYANG/CVP-MVSNet) \[ [Google Cloud](https://drive.google.com/file/d/1_Nuud3lRGaN_DOkeTNOvzwxYa2z2YRbX/view) \].

@@ -10,6 +10,7 @@ It is noted that [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) is utilized 
 ### Environment
  - Python 3.6 (Anaconda) 
  - Pytorch 1.1.0
+ - 4 GPUs with 11G memories, such as 1080 Ti or 2080 Ti.
 
 ### Training
  - Download the preprocessed DTU training dataset \[ [Google Cloud](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view) or [Baidu Cloud](https://pan.baidu.com/s/1sQAC3pmceyochNvnqpE9oA#list/path=%2F) (The password is `mo8w`) \].
