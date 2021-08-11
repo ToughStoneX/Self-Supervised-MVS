@@ -19,7 +19,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
 
-from dataset.dtu_yao2 import MVSDataset
+# from dataset.dtu_yao2 import MVSDataset
 from dataset.dtu import DTUDataset
 from models.network import CVPMVSNet, sL1_loss, MSE_loss
 from argParser import getArgsParser, checkArgs
