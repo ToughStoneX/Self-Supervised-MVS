@@ -14,7 +14,7 @@ JDACS-MS supports the training of multi-stage MVSNet which possesses a coarse-to
  - 4 to 8 GPUs with 11G memories, such as 1080 Ti or 2080 Ti.
 
 ### Training
- - Download the preprocessed DTU training dataset of [CVP-MVSNet](https://github.com/JiayuYANG/CVP-MVSNet) \[ [Google Cloud](https://drive.google.com/file/d/1_Nuud3lRGaN_DOkeTNOvzwxYa2z2YRbX/view) \].
+ - Download the preprocessed DTU training dataset of [CVP-MVSNet](https://github.com/JiayuYANG/CVP-MVSNet) \[ [Google Cloud](https://drive.google.com/file/d/1_Nuud3lRGaN_DOkeTNOvzwxYa2z2YRbX/view) \]. (Note: This processed partition is different from the original one provided by MVSNet, whose resolution of images is downsampled to 128 x 160.)
  - Edit the training settings in `train.sh`.
    - `DATASET_ROOT`: the path of your training dataset. 
    - `CKPT_DIR`: the path to save the checkpoint weights of your model during training.
